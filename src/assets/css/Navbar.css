@@ -1,0 +1,19 @@
+/* Custom CSS */
+.custom-navbar {
+    background-color: transparent !important;
+    padding: 20px;
+    padding-top: 20px;
+    
+  }
+.nav-link{
+    color: #543B23;
+}
+
+/* Navbar.css */
+.active {
+  border-bottom: 2px solid #543B23;
+}
+.nav-link:hover{
+  background-color: #543B23;
+  color: white;
+}
