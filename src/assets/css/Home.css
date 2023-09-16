@@ -11,11 +11,9 @@
     margin-top: 10px;
     display: flex;
     flex-direction: column;
-    padding-top: 15vh;
-    padding-left: 15vw;
-    padding-bottom: 15vh;
+    padding: 15vh 15vw;
     color: #543B23;
-    width: 50%;
+    width: 60%;
     font-weight: 500;
     background-color: #543b2327;
     border-radius:0 2rem 2rem 0;

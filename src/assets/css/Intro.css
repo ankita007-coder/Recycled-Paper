@@ -3,21 +3,20 @@
     background-repeat: no-repeat;
     background-position: fixed;
     background-size: cover;
-    height: 150vh;
+    height: 120vh;
     background-color: #543b2327;
-    min-height: 100vh;
 }
-h3{
+.intro h3{
     font-weight: 600;
 }
-.text{
+.intro .text{
     margin-top: 10px;
     display: flex;
     flex-direction: column;
     margin: 10vh 10vw;
     padding: 5vh 5vw;
     color: #543B23;
-    width: 50%;
+    width: 65%;
     font-weight: 500;
     background-color: #543b2327;
     border-radius: 2rem;
@@ -26,4 +25,14 @@ h3{
 
 .text ul{
     list-style-type: none;
+}
+
+@media screen and (max-width: 768px) {
+    .intro .text{
+        width: 85%;
+        margin-bottom: 10px;
+    }
+    .intro{
+        height: 100%;
+    }
 }

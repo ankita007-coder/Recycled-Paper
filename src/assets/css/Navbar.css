@@ -7,6 +7,8 @@
   }
 .nav-link{
     color: #543B23;
+    transition: ease-in 0.5s;
+
 }
 
 /* Navbar.css */
@@ -16,4 +18,5 @@
 .nav-link:hover{
   background-color: #543B23;
   color: white;
+  border-radius: 10px;
 }

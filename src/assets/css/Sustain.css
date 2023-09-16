@@ -1,0 +1,37 @@
+.advantage {
+    position: relative;
+    background-image: url('../images/video_image-Y4-nNL6Hx.jpeg');
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    height: 150vh;
+    background-color: #665d5d;
+    min-height: 100vh;
+  }
+  
+  
+  .advantage .text {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10vh 10vw;
+    padding: 15vh 5vw;
+    color: #543B23;
+    border: 2px solid #543B23;
+    width: 80%;
+    font-weight: 500;
+    background-color: rgba(209, 207, 205, 0.671); /* Adjust the color and opacity as needed */
+    border-radius: 2rem;
+    font-size: 16px;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .advantage .text{
+        width: 85%;
+        margin-bottom: 10px;
+    }
+    .advantage{
+        height: 100%;
+    }
+}

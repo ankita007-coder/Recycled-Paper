@@ -1,0 +1,38 @@
+.origin {
+    position: relative;
+    background-image: url('../images/origin.jpg');
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    height: 120vh;
+    background-color: #665d5d;
+    min-height: 100vh;
+  }
+  
+
+  
+  .text {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10vh 10vw;
+    padding: 15vh 5vw;
+    color: black;
+    width: 50%;
+    border: 2px solid black;
+    font-weight: 700;
+    background-color: rgba(189, 160, 130, 0.79); /* Adjust the color and opacity as needed */
+    border-radius: 2rem;
+    font-size: 16px;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .origin .text{
+        width: 85%;
+        margin-bottom: 10px;
+    }
+    .origin{
+        height: 100%;
+    }
+}
