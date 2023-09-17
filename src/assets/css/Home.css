@@ -3,12 +3,12 @@
     background-repeat: no-repeat;
     background-position: fixed;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #543b2327;
 }
 
 .para{
-    margin-top: 10px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     padding: 15vh 15vw;
@@ -22,6 +22,7 @@
 .flex-box{
     display: flex;
     margin: 1rem 1.5rem; 
+    margin-top: 3rem;
     justify-content: center;
 }
 .box{

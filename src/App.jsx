@@ -8,6 +8,7 @@ import Origin from "./components/Origin";
 import Advantage from "./components/Advantage";
 import Case from "./components/Case";
 import Sustain from "./components/Sustain";
+import Footer from "./components/Footer";
 const App = () => {
   return (
     <Router>
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/sustainability" element={<Sustain/>}/>
         <Route path="/case-studies" element={<Case/>}/>
       </Routes>
+      <Footer/>
     </Router>
   );
 };
