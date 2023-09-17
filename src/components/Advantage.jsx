@@ -6,10 +6,10 @@ const Advantage = () => {
   return (<div className="advantage">      
   <NavbarC />   
     <p className="text">
-    <h4>Resource Conservation:</h4>
-      A standout benefit is the conservation of trees and reduced reliance on virgin pulp, 
-      thus combating deforestation.
     <ul>
+    <li><b>Resource Conservation:</b>
+      A standout benefit is the conservation of trees and reduced reliance on virgin pulp, 
+      thus combating deforestation.</li>
       <li><b>Energy Efficiency:</b> 
       Recycled paper production typically consumes less energy, yielding reduced greenhouse gas emissions.
       </li>

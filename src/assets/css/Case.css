@@ -1,6 +1,6 @@
-.sustain {
+.case {
     position: relative;
-    background-image: url('../images/sustain.jpeg');
+    background-image: url('../images/case.png');
     background-repeat: no-repeat;
     background-position: fixed;
     background-size: cover;
@@ -9,28 +9,29 @@
   }
   
   
-  .sustain .text {
+  .case .text {
     margin-top: 10px;
     display: flex;
     flex-direction: column;
     margin: 10vh 10vw;
     padding: 15vh 5vw;
     color: #543B23;
-    border: 2px solid #543B23;
+    border: 2px solid #4db97d69;
     width: 80%;
     font-weight: 500;
-    background-color: rgba(209, 207, 205, 0.671); /* Adjust the color and opacity as needed */
+    background-color: #4db97d69; /* Adjust the color and opacity as needed */
     border-radius: 2rem;
     font-size: 16px;
+    text-align: justify;
   }
   
 
   @media screen and (max-width: 768px) {
-    .sustain .text{
+    .case .text{
         width: 85%;
         margin-bottom: 10px;
     }
-    .sustain{
+    .case{
         height: 100%;
     }
 }
