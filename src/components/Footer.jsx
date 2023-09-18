@@ -7,7 +7,9 @@ const Footer = () => {
   return<>
   <div className="footer">
     <div className="about"><h4>About</h4>
-    <p>Jelly sweet roll jelly beans biscuit pie macaroon chocolate donut. Carrot cake caramels pie sweet apple pie tiramisu carrot cake. Marzipan marshmallow croissant tootsie roll lollipop. Cupcake lemon drops bear claw gummies. Jelly bear claw gummi bears lollipop cotton candy gummi bears chocolate bar cake cookie. Cupcake muffin danish muffin cookie gummies. Jelly beans tiramisu pudding. </p></div>
+    <p>At Recology, we are passionate about making a positive impact on the environment through making people aware of recycled paper . 
+      We believe that every sheet of paper can tell a story of conservation, responsibility, and a commitment to a greener future.</p>
+</div>
     <div className="quick-links">
         <ul>
             <li><Link to="/" className="link">Home</Link></li>
