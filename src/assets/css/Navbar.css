@@ -10,7 +10,18 @@
     transition: ease-in 0.5s;
 
 }
-
+.me-2{
+  background-color: transparent;
+  border-bottom: 2px solid #543B23;
+}
+.me-2::placeholder{
+  color: #543B23;
+}
+.me-2:active, .me-2:focus, .me-2:hover{
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
 /* Navbar.css */
 .active {
   border-bottom: 2px solid #543B23;
