@@ -4,13 +4,14 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import logo from "../assets/images/12we.png";
 import "../assets/css/Navbar.css";
 
 const NavbarC = () => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary custom-navbar">
       <Container fluid>
-        <Navbar.Brand>RECOLOGY</Navbar.Brand>
+        <Navbar.Brand><img src={logo} style={{height: "80px", width: "80px"}}/>RECOLOGY</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
         <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px' }} navbarScroll>
